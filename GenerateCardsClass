@@ -1,0 +1,16 @@
+import java.util.HashSet;
+import java.util.Random;
+
+public class GenerateCards {
+
+	public static HashSet<Integer> GetCards() {
+		Random cards = new Random();
+        HashSet<Integer> number = new HashSet<>();
+        while(number.size()<4)
+        {
+                int Rand = cards.nextInt(52)+1;
+                number.add(Rand);
+        }
+        return number;	//Generated HashSet Unique Card Num
+	}
+}
