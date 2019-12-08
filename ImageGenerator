@@ -1,0 +1,580 @@
+import javafx.scene.image.Image;
+
+public class ImageGenerator extends CardDriver {
+
+	public static void imageSet(int n, int i) {
+
+		Image c1 = new Image("ace_of_clubs.png");
+		Image c2 = new Image("ace_of_diamonds.png");
+		Image c3 = new Image("ace_of_hearts.png");
+		Image c4 = new Image("ace_of_spades.png");
+		Image c5 = new Image("2_of_clubs.png");
+		Image c6 = new Image("2_of_diamonds.png");
+		Image c7 = new Image("2_of_hearts.png");
+		Image c8 = new Image("2_of_spades.png");
+		Image c9 = new Image("3_of_clubs.png");
+		Image c10 = new Image("3_of_diamonds.png");
+		Image c11 = new Image("3_of_hearts.png");
+		Image c12 = new Image("3_of_spades.png");
+		Image c13 = new Image("4_of_clubs.png");
+		Image c14 = new Image("4_of_diamonds.png");
+		Image c15 = new Image("4_of_hearts.png");
+		Image c16 = new Image("4_of_spades.png");
+		Image c17 = new Image("5_of_clubs.png");
+		Image c18 = new Image("5_of_diamonds.png");
+		Image c19 = new Image("5_of_hearts.png");
+		Image c20 = new Image("5_of_spades.png");
+		Image c21 = new Image("6_of_clubs.png");
+		Image c22 = new Image("6_of_diamonds.png");
+		Image c23 = new Image("6_of_hearts.png");
+		Image c24 = new Image("6_of_spades.png");
+		Image c25 = new Image("7_of_clubs.png");
+		Image c26 = new Image("7_of_diamonds.png");
+		Image c27 = new Image("7_of_hearts.png");
+		Image c28 = new Image("7_of_spades.png");
+		Image c29 = new Image("8_of_clubs.png");
+		Image c30 = new Image("8_of_diamonds.png");
+		Image c31 = new Image("8_of_hearts.png");
+		Image c32 = new Image("8_of_spades.png");
+		Image c33 = new Image("9_of_clubs.png");
+		Image c34 = new Image("9_of_diamonds.png");
+		Image c35 = new Image("9_of_hearts.png");
+		Image c36 = new Image("9_of_spades.png");
+		Image c37 = new Image("10_of_clubs.png");
+		Image c38 = new Image("10_of_diamonds.png");
+		Image c39 = new Image("10_of_hearts.png");
+		Image c40 = new Image("10_of_spades.png");
+		Image c41 = new Image("jack_of_clubs.png");
+		Image c42 = new Image("jack_of_diamonds.png");
+		Image c43 = new Image("jack_of_hearts.png");
+		Image c44 = new Image("jack_of_spades.png");
+		Image c45 = new Image("queen_of_clubs.png");
+		Image c46 = new Image("queen_of_diamonds.png");
+		Image c47 = new Image("queen_of_hearts.png");
+		Image c48 = new Image("queen_of_spades.png");
+		Image c49 = new Image("king_of_clubs.png");
+		Image c50 = new Image("king_of_diamonds.png");
+		Image c51 = new Image("king_of_hearts.png");
+		Image c52 = new Image("king_of_spades.png");
+
+		if (n == 1 && i == 0) {
+			card1.setImage(c1);
+		} else if (n == 1 && i == 1) {
+			card2.setImage(c1);
+		} else if (n == 1 && i == 2) {
+			card3.setImage(c1);
+		} else if (n == 1 && i == 3) {
+			card4.setImage(c1);
+		}
+
+		if (n == 2 && i == 0) {
+			card1.setImage(c2);
+		} else if (n == 2 && i == 1) {
+			card2.setImage(c2);
+		} else if (n == 2 && i == 2) {
+			card3.setImage(c2);
+		} else if (n == 2 && i == 3) {
+			card4.setImage(c2);
+		}
+
+		if (n == 3 && i == 0) {
+			card1.setImage(c3);
+		} else if (n == 3 && i == 1) {
+			card2.setImage(c3);
+		} else if (n == 3 && i == 2) {
+			card3.setImage(c3);
+		} else if (n == 3 && i == 3) {
+			card4.setImage(c3);
+		}
+
+		if (n == 4 && i == 0) {
+			card1.setImage(c4);
+		} else if (n == 4 && i == 1) {
+			card2.setImage(c4);
+		} else if (n == 4 && i == 2) {
+			card3.setImage(c4);
+		} else if (n == 4 && i == 3) {
+			card4.setImage(c4);
+		}
+
+		if (n == 5 && i == 0) {
+			card1.setImage(c5);
+		} else if (n == 5 && i == 1) {
+			card2.setImage(c5);
+		} else if (n == 5 && i == 2) {
+			card3.setImage(c5);
+		} else if (n == 5 && i == 3) {
+			card4.setImage(c5);
+		}
+
+		if (n == 6 && i == 0) {
+			card1.setImage(c6);
+		} else if (n == 6 && i == 1) {
+			card2.setImage(c6);
+		} else if (n == 6 && i == 2) {
+			card3.setImage(c6);
+		} else if (n == 6 && i == 3) {
+			card4.setImage(c6);
+		}
+
+		if (n == 7 && i == 0) {
+			card1.setImage(c7);
+		} else if (n == 7 && i == 1) {
+			card2.setImage(c7);
+		} else if (n == 7 && i == 2) {
+			card3.setImage(c7);
+		} else if (n == 7 && i == 3) {
+			card4.setImage(c7);
+		}
+
+		if (n == 8 && i == 0) {
+			card1.setImage(c8);
+		} else if (n == 8 && i == 1) {
+			card2.setImage(c8);
+		} else if (n == 8 && i == 2) {
+			card3.setImage(c8);
+		} else if (n == 8 && i == 3) {
+			card4.setImage(c8);
+		}
+
+		if (n == 9 && i == 0) {
+			card1.setImage(c9);
+		} else if (n == 9 && i == 1) {
+			card2.setImage(c9);
+		} else if (n == 9 && i == 2) {
+			card3.setImage(c9);
+		} else if (n == 9 && i == 3) {
+			card4.setImage(c9);
+		}
+
+		if (n == 10 && i == 0) {
+			card1.setImage(c10);
+		} else if (n == 10 && i == 1) {
+			card2.setImage(c10);
+		} else if (n == 10 && i == 2) {
+			card3.setImage(c10);
+		} else if (n == 10 && i == 3) {
+			card4.setImage(c10);
+		}
+
+		if (n == 11 && i == 0) {
+			card1.setImage(c11);
+		} else if (n == 11 && i == 1) {
+			card2.setImage(c11);
+		} else if (n == 11 && i == 2) {
+			card3.setImage(c11);
+		} else if (n == 11 && i == 3) {
+			card4.setImage(c11);
+		}
+
+		if (n == 12 && i == 0) {
+			card1.setImage(c12);
+		} else if (n == 12 && i == 1) {
+			card2.setImage(c12);
+		} else if (n == 12 && i == 2) {
+			card3.setImage(c12);
+		} else if (n == 12 && i == 3) {
+			card4.setImage(c12);
+		}
+
+		if (n == 13 && i == 0) {
+			card1.setImage(c13);
+		} else if (n == 13 && i == 1) {
+			card2.setImage(c13);
+		} else if (n == 13 && i == 2) {
+			card3.setImage(c13);
+		} else if (n == 13 && i == 3) {
+			card4.setImage(c13);
+		}
+
+		if (n == 14 && i == 0) {
+			card1.setImage(c14);
+		} else if (n == 14 && i == 1) {
+			card2.setImage(c14);
+		} else if (n == 14 && i == 2) {
+			card3.setImage(c14);
+		} else if (n == 14 && i == 3) {
+			card4.setImage(c14);
+		}
+
+		if (n == 15 && i == 0) {
+			card1.setImage(c15);
+		} else if (n == 15 && i == 1) {
+			card2.setImage(c15);
+		} else if (n == 15 && i == 2) {
+			card3.setImage(c15);
+		} else if (n == 15 && i == 3) {
+			card4.setImage(c15);
+		}
+
+		if (n == 16 && i == 0) {
+			card1.setImage(c16);
+		} else if (n == 16 && i == 1) {
+			card2.setImage(c16);
+		} else if (n == 16 && i == 2) {
+			card3.setImage(c16);
+		} else if (n == 16 && i == 3) {
+			card4.setImage(c16);
+		}
+
+		if (n == 17 && i == 0) {
+			card1.setImage(c17);
+		} else if (n == 17 && i == 1) {
+			card2.setImage(c17);
+		} else if (n == 17 && i == 2) {
+			card3.setImage(c17);
+		} else if (n == 17 && i == 3) {
+			card4.setImage(c17);
+		}
+
+		if (n == 18 && i == 0) {
+			card1.setImage(c18);
+		} else if (n == 18 && i == 1) {
+			card2.setImage(c18);
+		} else if (n == 18 && i == 2) {
+			card3.setImage(c18);
+		} else if (n == 18 && i == 3) {
+			card4.setImage(c18);
+		}
+
+		if (n == 19 && i == 0) {
+			card1.setImage(c19);
+		} else if (n == 19 && i == 1) {
+			card2.setImage(c19);
+		} else if (n == 19 && i == 2) {
+			card3.setImage(c19);
+		} else if (n == 19 && i == 3) {
+			card4.setImage(c19);
+		}
+
+		if (n == 20 && i == 0) {
+			card1.setImage(c20);
+		} else if (n == 20 && i == 1) {
+			card2.setImage(c20);
+		} else if (n == 20 && i == 2) {
+			card3.setImage(c20);
+		} else if (n == 20 && i == 3) {
+			card4.setImage(c20);
+		}
+
+		if (n == 21 && i == 0) {
+			card1.setImage(c21);
+		} else if (n == 21 && i == 1) {
+			card2.setImage(c21);
+		} else if (n == 21 && i == 2) {
+			card3.setImage(c21);
+		} else if (n == 21 && i == 3) {
+			card4.setImage(c21);
+		}
+
+		if (n == 22 && i == 0) {
+			card1.setImage(c22);
+		} else if (n == 22 && i == 1) {
+			card2.setImage(c22);
+		} else if (n == 22 && i == 2) {
+			card3.setImage(c22);
+		} else if (n == 22 && i == 3) {
+			card4.setImage(c22);
+		}
+
+		if (n == 23 && i == 0) {
+			card1.setImage(c23);
+		} else if (n == 23 && i == 1) {
+			card2.setImage(c23);
+		} else if (n == 23 && i == 2) {
+			card3.setImage(c23);
+		} else if (n == 23 && i == 3) {
+			card4.setImage(c23);
+		}
+
+		if (n == 24 && i == 0) {
+			card1.setImage(c24);
+		} else if (n == 24 && i == 1) {
+			card2.setImage(c24);
+		} else if (n == 24 && i == 2) {
+			card3.setImage(c24);
+		} else if (n == 24 && i == 3) {
+			card4.setImage(c24);
+		}
+
+		if (n == 25 && i == 0) {
+			card1.setImage(c25);
+		} else if (n == 25 && i == 1) {
+			card2.setImage(c25);
+		} else if (n == 25 && i == 2) {
+			card3.setImage(c25);
+		} else if (n == 25 && i == 3) {
+			card4.setImage(c25);
+		}
+
+		if (n == 26 && i == 0) {
+			card1.setImage(c26);
+		} else if (n == 26 && i == 1) {
+			card2.setImage(c26);
+		} else if (n == 26 && i == 2) {
+			card3.setImage(c26);
+		} else if (n == 26 && i == 3) {
+			card4.setImage(c26);
+		}
+
+		if (n == 27 && i == 0) {
+			card1.setImage(c27);
+		} else if (n == 27 && i == 1) {
+			card2.setImage(c27);
+		} else if (n == 27 && i == 2) {
+			card3.setImage(c27);
+		} else if (n == 27 && i == 3) {
+			card4.setImage(c27);
+		}
+
+		if (n == 28 && i == 0) {
+			card1.setImage(c28);
+		} else if (n == 28 && i == 1) {
+			card2.setImage(c28);
+		} else if (n == 28 && i == 2) {
+			card3.setImage(c28);
+		} else if (n == 28 && i == 3) {
+			card4.setImage(c28);
+		}
+
+		if (n == 29 && i == 0) {
+			card1.setImage(c29);
+		} else if (n == 29 && i == 1) {
+			card2.setImage(c29);
+		} else if (n == 29 && i == 2) {
+			card3.setImage(c29);
+		} else if (n == 29 && i == 3) {
+			card4.setImage(c29);
+		}
+
+		if (n == 30 && i == 0) {
+			card1.setImage(c30);
+		} else if (n == 30 && i == 1) {
+			card2.setImage(c30);
+		} else if (n == 30 && i == 2) {
+			card3.setImage(c30);
+		} else if (n == 30 && i == 3) {
+			card4.setImage(c30);
+		}
+
+		if (n == 31 && i == 0) {
+			card1.setImage(c31);
+		} else if (n == 31 && i == 1) {
+			card2.setImage(c31);
+		} else if (n == 31 && i == 2) {
+			card3.setImage(c31);
+		} else if (n == 31 && i == 3) {
+			card4.setImage(c31);
+		}
+
+		if (n == 32 && i == 0) {
+			card1.setImage(c32);
+		} else if (n == 32 && i == 1) {
+			card2.setImage(c32);
+		} else if (n == 32 && i == 2) {
+			card3.setImage(c32);
+		} else if (n == 32 && i == 3) {
+			card4.setImage(c32);
+		}
+
+		if (n == 33 && i == 0) {
+			card1.setImage(c33);
+		} else if (n == 33 && i == 1) {
+			card2.setImage(c33);
+		} else if (n == 33 && i == 2) {
+			card3.setImage(c33);
+		} else if (n == 33 && i == 3) {
+			card4.setImage(c33);
+		}
+
+		if (n == 34 && i == 0) {
+			card1.setImage(c34);
+		} else if (n == 34 && i == 1) {
+			card2.setImage(c34);
+		} else if (n == 34 && i == 2) {
+			card3.setImage(c34);
+		} else if (n == 34 && i == 3) {
+			card4.setImage(c34);
+		}
+
+		if (n == 35 && i == 0) {
+			card1.setImage(c35);
+		} else if (n == 35 && i == 1) {
+			card2.setImage(c35);
+		} else if (n == 35 && i == 2) {
+			card3.setImage(c35);
+		} else if (n == 35 && i == 3) {
+			card4.setImage(c35);
+		}
+
+		if (n == 36 && i == 0) {
+			card1.setImage(c36);
+		} else if (n == 36 && i == 1) {
+			card2.setImage(c36);
+		} else if (n == 36 && i == 2) {
+			card3.setImage(c36);
+		} else if (n == 36 && i == 3) {
+			card4.setImage(c36);
+		}
+
+		if (n == 37 && i == 0) {
+			card1.setImage(c37);
+		} else if (n == 37 && i == 1) {
+			card2.setImage(c37);
+		} else if (n == 37 && i == 2) {
+			card3.setImage(c37);
+		} else if (n == 37 && i == 3) {
+			card4.setImage(c37);
+		}
+
+		if (n == 38 && i == 0) {
+			card1.setImage(c38);
+		} else if (n == 38 && i == 1) {
+			card2.setImage(c38);
+		} else if (n == 38 && i == 2) {
+			card3.setImage(c38);
+		} else if (n == 38 && i == 3) {
+			card4.setImage(c38);
+		}
+
+		if (n == 39 && i == 0) {
+			card1.setImage(c39);
+		} else if (n == 39 && i == 1) {
+			card2.setImage(c39);
+		} else if (n == 39 && i == 2) {
+			card3.setImage(c39);
+		} else if (n == 39 && i == 3) {
+			card4.setImage(c39);
+		}
+
+		if (n == 40 && i == 0) {
+			card1.setImage(c40);
+		} else if (n == 40 && i == 1) {
+			card2.setImage(c40);
+		} else if (n == 40 && i == 2) {
+			card3.setImage(c40);
+		} else if (n == 40 && i == 3) {
+			card4.setImage(c40);
+		}
+
+		if (n == 41 && i == 0) {
+			card1.setImage(c41);
+		} else if (n == 41 && i == 1) {
+			card2.setImage(c41);
+		} else if (n == 41 && i == 2) {
+			card3.setImage(c41);
+		} else if (n == 41 && i == 3) {
+			card4.setImage(c41);
+		}
+
+		if (n == 42 && i == 0) {
+			card1.setImage(c42);
+		} else if (n == 42 && i == 1) {
+			card2.setImage(c42);
+		} else if (n == 42 && i == 2) {
+			card3.setImage(c42);
+		} else if (n == 42 && i == 3) {
+			card4.setImage(c42);
+		}
+
+		if (n == 43 && i == 0) {
+			card1.setImage(c43);
+		} else if (n == 43 && i == 1) {
+			card2.setImage(c43);
+		} else if (n == 43 && i == 2) {
+			card3.setImage(c43);
+		} else if (n == 43 && i == 3) {
+			card4.setImage(c43);
+		}
+
+		if (n == 44 && i == 0) {
+			card1.setImage(c44);
+		} else if (n == 44 && i == 1) {
+			card2.setImage(c44);
+		} else if (n == 44 && i == 2) {
+			card3.setImage(c44);
+		} else if (n == 44 && i == 3) {
+			card4.setImage(c44);
+		}
+
+		if (n == 45 && i == 0) {
+			card1.setImage(c45);
+		} else if (n == 45 && i == 1) {
+			card2.setImage(c45);
+		} else if (n == 45 && i == 2) {
+			card3.setImage(c45);
+		} else if (n == 45 && i == 3) {
+			card4.setImage(c45);
+		}
+
+		if (n == 46 && i == 0) {
+			card1.setImage(c46);
+		} else if (n == 46 && i == 1) {
+			card2.setImage(c46);
+		} else if (n == 46 && i == 2) {
+			card3.setImage(c46);
+		} else if (n == 46 && i == 3) {
+			card4.setImage(c46);
+		}
+
+		if (n == 47 && i == 0) {
+			card1.setImage(c47);
+		} else if (n == 47 && i == 1) {
+			card2.setImage(c47);
+		} else if (n == 47 && i == 2) {
+			card3.setImage(c47);
+		} else if (n == 47 && i == 3) {
+			card4.setImage(c47);
+		}
+
+		if (n == 48 && i == 0) {
+			card1.setImage(c48);
+		} else if (n == 48 && i == 1) {
+			card2.setImage(c48);
+		} else if (n == 48 && i == 2) {
+			card3.setImage(c48);
+		} else if (n == 48 && i == 3) {
+			card4.setImage(c48);
+		}
+
+		if (n == 49 && i == 0) {
+			card1.setImage(c49);
+		} else if (n == 49 && i == 1) {
+			card2.setImage(c49);
+		} else if (n == 49 && i == 2) {
+			card3.setImage(c49);
+		} else if (n == 49 && i == 3) {
+			card4.setImage(c49);
+		}
+
+		if (n == 50 && i == 0) {
+			card1.setImage(c50);
+		} else if (n == 50 && i == 1) {
+			card2.setImage(c50);
+		} else if (n == 50 && i == 2) {
+			card3.setImage(c50);
+		} else if (n == 50 && i == 3) {
+			card4.setImage(c50);
+		}
+
+		if (n == 51 && i == 0) {
+			card1.setImage(c51);
+		} else if (n == 51 && i == 1) {
+			card2.setImage(c51);
+		} else if (n == 51 && i == 2) {
+			card3.setImage(c51);
+		} else if (n == 51 && i == 3) {
+			card4.setImage(c51);
+		}
+
+		if (n == 52 && i == 0) {
+			card1.setImage(c52);
+		} else if (n == 52 && i == 1) {
+			card2.setImage(c52);
+		} else if (n == 52 && i == 2) {
+			card3.setImage(c52);
+		} else if (n == 52 && i == 3) {
+			card4.setImage(c52);
+		}
+	}
+}
